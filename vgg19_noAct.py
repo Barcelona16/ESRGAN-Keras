@@ -14,7 +14,7 @@ import os
 
 from keras.utils import data_utils as keras_utils
 from keras import layers, models, backend
-from keras_applications import get_submodules_from_kwargs
+#from keras_applications import get_submodules_from_kwargs
 from keras_applications import imagenet_utils
 from keras_applications.imagenet_utils import decode_predictions
 from keras_applications.imagenet_utils import _obtain_input_shape

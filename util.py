@@ -10,8 +10,13 @@ except ModuleNotFoundError:
 from keras.models import load_model
 from keras.utils import Sequence
 from tqdm import tqdm
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 
 try:
+    import matplotlib
+    matplotlib.use('TkAgg')
     import matplotlib.pyplot as plt
 except:
     pass
